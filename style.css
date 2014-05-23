@@ -1,0 +1,89 @@
+html, body{
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+#fixedheader {
+	position: fixed;
+	top: 2%;
+	background-color: white;
+	font-size: 12px;
+	font-family: Verdana;
+	color: blue;
+	padding-left: 10px;
+	width: 20%;
+	height: 8%;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#fixedheader a:hover{
+	color: orange;
+}
+
+h2 {
+	font-size: 42px;
+	font-family: Georgia;
+	background-color: blue;
+	text-align: center;
+	color: white;
+	height: 100px;
+	padding: 50px 0px 0px 0px;
+	position: relative;
+	border: 10px white solid;
+	border-radius: 15%;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1440px;
+	height: 100%;
+	overflow: auto;
+	padding: 2em 2em 2em 2em;
+}
+.lorum {
+	float: left;
+	width: 45%;
+	min-width: 200px;
+	max-width: 720px;
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+}
+h4 {
+	font-size: 18px;
+	font-family: Georgia;
+	font-weight: bold;
+	text-decoration: none;
+}
+h4 a:hover{
+	color: orange;
+	text-decoration: none;
+}
+.ipsum {
+	float: left;
+	width: 30%;
+	min-width: 200px;
+	max-width: 480px;	
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+}
+.rug1 {
+	float: left;
+	width: 151px;
+	height: 101px;
+	margin: 0px 5px 1px 0px;
+}
+.gallery {
+	float: left;
+	width: 15%;
+	max-width: 360px;
+	min-width: 200px;
+	margin: 8px 6px 8px 6px;
+	display: inline-block;
+}
+#gallery {
+	width: 100%;
+	padding: 0px;
+}
+img:hover{
+	box-shadow: 5px black;
+}
