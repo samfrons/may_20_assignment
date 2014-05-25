@@ -1,0 +1,11 @@
+.container {
+	max-width: 1200px;
+	width: 100%;
+	padding: 0;
+}
+
+#gallery {
+	margin: 0 0 0 5%;
+}
+
+/* added a left margin so it centers more. margin: 0 auto won't work since these are left floats */
