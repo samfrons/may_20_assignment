@@ -7,5 +7,10 @@
 #gallery {
 	margin: 0 0 0 5%;
 }
-
 /* added a left margin so it centers more. margin: 0 auto won't work since these are left floats */
+
+img:hover {
+	box-shadow: 0px 1px 2px 3px black;
+	cursor: pointer;
+	transition: .2s all linear;
+}
